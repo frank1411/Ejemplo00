@@ -1,0 +1,12 @@
+server:
+  port: 80
+  servlet:
+    context-path: /reporte-general-afiliaciones
+
+spring:
+  application:
+    name: reporte-general-afiliaciones
+  cloud:
+    config:
+      uri: http://config-server.domic:80
+      name: payhome-domic-common
